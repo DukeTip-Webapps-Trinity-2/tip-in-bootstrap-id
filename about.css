@@ -1,0 +1,50 @@
+/* <- Demo Stuff Start */
+
+body{
+    
+    
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
+  background-image: url("http://3.bp.blogspot.com/-6-SO0dYmskQ/Ul0_slMq1lI/AAAAAAAAKdQ/9xREjLs8-Rw/s1600/School-Wallpapers-6.jpg");
+
+}
+
+
+.container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  align-content: left;
+  flex-wrap: wrap;
+  width: 20vw;
+  margin: 0 left;
+  min-height: 2.5vh;
+}
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+
+/* Magic Stuff End -> */
